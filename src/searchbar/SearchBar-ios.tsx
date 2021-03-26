@@ -96,7 +96,7 @@ class SearchBar extends Component<SearchBarIosProps, SearchBarState> {
   };
 
   cancel = () => {
-    this.onChangeText('');
+    // this.onChangeText('');
     if (this.props.showCancel) {
       // @ts-ignore
       UIManager.configureNextLayoutAnimation && LayoutAnimation.easeInEaseOut();
